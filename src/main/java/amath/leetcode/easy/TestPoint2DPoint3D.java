@@ -5,7 +5,7 @@ import org.slf4j.LoggerFactory;
 
 public class TestPoint2DPoint3D {
 
-    private static final Logger logger = LoggerFactory.getLogger(TestPoint2DPoint3D.class);
+ //   private static final Logger logger = LoggerFactory.getLogger(TestPoint2DPoint3D.class);
 
     public static void main(String[] args) {
       /* Test Point2D */
@@ -17,7 +17,8 @@ public class TestPoint2DPoint3D {
         // Test Setters and Getters
         p2a.setX(3);  // Test setters
         p2a.setY(4);
-        logger.info("p2a = {}", p2a);
+  //      logger.info("p2a = {}", p2a);
+        System.out.println(p2a);
         System.out.println("x is: " + p2a.getX());
         System.out.println("x is: " + p2a.getY());
 
